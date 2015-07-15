@@ -1,10 +1,10 @@
 # riotjs2-todomvc
 :white_check_mark: A demo of todomvc in Riot.js + Hapi.js (with server-side view rendering), Socket.io &amp; Redis persistence. (with Tests &amp; Explanatory Comments!) :open_mouth:
 
+## Riot.js Todo Demo (_official_)
 
-If you want to follow the Riot.js custom tag example: https://muut.com/riotjs/guide/
-
-Load the /**demo** directory and run the server: `node static-server.js`
-
-To run the riot.js demo you need to have /**demo** as your
-`current working directory` _before_
+If you want to follow the Riot.js custom tag (_official Todo_) example: https://muut.com/riotjs/guide/
+Run the static server: `node demo/static-server.js`
+(so you can open the `index.html` in your browser without warnings)
+then
+> visit: http://localhost:8000/
