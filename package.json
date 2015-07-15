@@ -1,0 +1,32 @@
+{
+  "name": "riotjs2-todomvc",
+  "version": "1.0.0",
+  "description": "A demo of todomvc in Riot.js + Hapi.js (with server-side view rendering), Socket.io & Redis persistence. (with Tests & Explanatory Comments!)",
+  "main": "server.js",
+  "scripts": {
+    "test": "tape"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelsonic/riotjs2-todomvc.git"
+  },
+  "keywords": [
+    "riot.js",
+    "2.0",
+    "todomvc",
+    "todo",
+    "example",
+    "socket.io",
+    "redis",
+    "howto"
+  ],
+  "author": "nelsonic <nodecoder@gmail.com> (https://github.com/nelsonic)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nelsonic/riotjs2-todomvc/issues"
+  },
+  "homepage": "https://github.com/nelsonic/riotjs2-todomvc#readme",
+  "dependencies": {
+    "todomvc-common": "^1.0.2"
+  }
+}
