@@ -22,13 +22,15 @@
   <!-- this script tag is optional -->
   <script>
     this.items = opts.items
-
+    console.log(opts);
     edit(e) {
+      console.log("edit", e);
       this.text = e.target.value
     }
 
     add(e) {
       if (this.text) {
+        console.log("add", e)
         this.items.push({ title: this.text })
         this.text = this.input.value = ''
       }
