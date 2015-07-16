@@ -21,10 +21,11 @@
 
   <!-- this script tag is optional -->
   <script>
+  
     this.items = opts.items
     console.log(opts);
     edit(e) {
-      console.log("edit", e);
+      console.log(e.target.value);
       this.text = e.target.value
     }
 
