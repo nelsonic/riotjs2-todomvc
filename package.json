@@ -4,7 +4,8 @@
   "description": "A demo of todomvc in Riot.js + Hapi.js (with server-side view rendering), Socket.io & Redis persistence. (with Tests & Explanatory Comments!)",
   "main": "server.js",
   "scripts": {
-    "test": "tape"
+    "test": "tape",
+    "start": "PORT=8000 node demo/server.js"
   },
   "repository": {
     "type": "git",
