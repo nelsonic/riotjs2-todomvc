@@ -21,7 +21,7 @@
 
   <!-- this script tag is optional -->
   <script>
-  
+
     this.items = opts.items
     console.log(opts);
     edit(e) {
