@@ -7,8 +7,20 @@ server.connection({
 	port: Number(process.env.PORT)
 });
 
+var riot = require('riot');
+var views = require('./views');
+var html = riot.render(views.hello, {name: 'Ana'});
+console.log(html);
+
+
+function hello_handler (request, reply) {
+	var html = riot.render(views.hello, {name: 'yourname'})
+	console.log(html);
+	return reply(html);
+}
+
 server.route([
-  // { method: 'GET', path: '/load',      handler: require('./lib/load_messages').load },
+  { method: 'GET', path: '/hello/{param*}',  handler: hello_handler },
   { method: 'GET', path: '/{param*}', handler: { directory: { path: Path.normalize(__dirname + '/') } } }
 ]);
 
